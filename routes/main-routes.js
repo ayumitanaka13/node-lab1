@@ -10,7 +10,7 @@ const data = [
   },
 ];
 
-router.get("/", (req, res, next) => {
+const titles = router.get("/", (req, res, next) => {
   res.render("index");
 });
 
